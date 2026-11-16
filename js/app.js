@@ -1,5 +1,5 @@
 /**
- * 國立自然科學博物館公開展示主題 × 南投國中數學領域跨域手作特展
+ * 南投國中數學領域教師研習 ‧ 永生花跨領域手作特展
  * 《當數學遇見永生花：幾何與植物科學的璀璨交織》
  * 核心應用邏輯與互動引擎 (Core Application Controller)
  */
@@ -46,7 +46,7 @@ function initFontController() {
    ========================================================================== */
 function initThemeController() {
   const themeBtns = document.querySelectorAll('.theme-btn');
-  // 預設為科博館植物園推薦之綠色系 (green)
+  // 預設為自然植感推薦之綠色系 (green)
   const savedTheme = localStorage.getItem('nmns_flower_theme') || 'green';
 
   applyTheme(savedTheme);
@@ -363,7 +363,7 @@ function initSlideDeck() {
     }
 
     if (slideQuiz) {
-      slideQuiz.innerHTML = `<strong>💡 科博展廳互動：</strong>${s.quiz}`;
+      slideQuiz.innerHTML = `<strong>💡 課程互動思考：</strong>${s.quiz}`;
     }
 
     if (slideIndicator) {
