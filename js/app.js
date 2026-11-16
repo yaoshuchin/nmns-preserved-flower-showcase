@@ -425,6 +425,17 @@ function initSlideDeck() {
     });
   }
 
+  // 大綱目錄抽屜切換
+  const syllabusToggleBtn = document.getElementById('deckSyllabusToggleBtn');
+  const syllabusDrawer = document.getElementById('syllabusDrawer');
+  if (syllabusToggleBtn && syllabusDrawer) {
+    syllabusToggleBtn.addEventListener('click', () => {
+      const isHidden = syllabusDrawer.style.display === 'none' || syllabusDrawer.style.display === '';
+      syllabusDrawer.style.display = isHidden ? 'block' : 'none';
+      syllabusToggleBtn.classList.toggle('active', isHidden);
+    });
+  }
+
   // 講者備忘錄切換
   if (notesToggleBtn && notesPanel) {
     notesToggleBtn.addEventListener('click', () => {
