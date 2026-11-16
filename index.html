@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-font="normal">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>當數學遇見永生花：幾何與植物科學的璀璨交織 ｜ 國立自然科學博物館公開展示主題特展</title>
+  <meta name="description" content="國立自然科學博物館公開展示主題特展 × 南投國中數學領域跨域手作：探索植物中的斐波那契數列、黃金分割與現代植物細胞置換保鮮科學。">
+  <meta property="og:title" content="當數學遇見永生花：幾何與植物科學的璀璨交織">
+  <meta property="og:description" content="國立自然科學博物館植物園特展公開展示 ‧ 15 頁永生花完整教學大綱與 20 件精選成果高解析特展。">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-theme="green">
+
+  <!-- =======================================================================
+       1. 階層式頂部佈局 (Header with Accessible Toolbar)
+       ======================================================================= -->
+  <header class="showcase-header">
+    <div class="container">
+      <!-- 第一行：標題與右上方控制工具列 -->
+      <div class="header-top-bar">
+        <div class="brand-wrapper">
+          <div class="brand-logo-badge">🌸</div>
+          <div class="brand-titles">
+            <span class="brand-org">🏛️ 國立自然科學博物館 ‧ 植物園特展公開展示主題 × 南投國中數學領域</span>
+            <h1 class="brand-main-title">當數學遇見永生花：幾何與植物科學的璀璨交織</h1>
+          </div>
+        </div>
+
+        <div class="header-tools">
+          <!-- 字體縮放控制 -->
+          <div class="tool-group" title="全局字級無障礙縮放">
+            <span class="tool-label">字體</span>
+            <button class="tool-btn font-btn active" data-font="normal">中</button>
+            <button class="tool-btn font-btn" data-font="large">大</button>
+            <button class="tool-btn font-btn" data-font="xlarge">特大</button>
+          </div>
+
+          <!-- 四色布景主題切換 -->
+          <div class="tool-group" title="色彩主題風格切換">
+            <span class="tool-label">布景</span>
+            <button class="tool-btn theme-btn" data-theme="light">淺</button>
+            <button class="tool-btn theme-btn" data-theme="dark">深</button>
+            <button class="tool-btn theme-btn active" data-theme="green">綠</button>
+            <button class="tool-btn theme-btn" data-theme="blue">藍</button>
+          </div>
+
+          <!-- 原生 Web Audio 水晶音樂播放器 -->
+          <div class="music-player-pill" title="純前端水晶音樂合成器（零版權延遲）">
+            <button class="music-btn" id="musicPlayBtn" title="播放/暫停">▶</button>
+            <button class="music-btn" id="musicNextBtn" title="下一首曲目">⏭</button>
+            <button class="music-btn" id="musicMuteBtn" title="靜音切換">🔊</button>
+            <span class="music-track-name" id="musicTrackName">綠意晨曦</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 第二行：五大核心功能分頁導航 -->
+      <nav class="header-nav-bar" aria-label="展示系統核心導航">
+        <ul class="nav-links">
+          <li><button class="nav-tab-btn active" data-tab="tab-hub">🏛️ 1. 場域中心</button></li>
+          <li><button class="nav-tab-btn" data-tab="tab-results">🌟 2. 成果展示</button></li>
+          <li><button class="nav-tab-btn" data-tab="tab-faq">🎯 3. 科普問答</button></li>
+          <li><button class="nav-tab-btn" data-tab="tab-deck">📽️ 4. 簡報模式</button></li>
+          <li><button class="nav-tab-btn" data-tab="tab-qr">📱 5. QR 分享</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =======================================================================
+       2. 主內容區 (Main Tab Panes)
+       ======================================================================= -->
+  <main class="main-content container">
+
+    <!-- -------------------------------------------------------------------
+         分頁一：🏛️ 1. 場域/專案中心 (Project Hub)
+         ------------------------------------------------------------------- -->
+    <section id="tab-hub" class="tab-pane active">
+      <div class="section-hero">
+        <span class="section-tag">National Museum of Natural Science</span>
+        <h2 class="section-title">臺中自然科學博物館公開展示主題</h2>
+        <p class="section-subtitle">
+          連結自然歷史典藏與中學跨領域素養導向教育，以植物科學與幾何數學的視角，重新凝視生命永恆之美。
+        </p>
+      </div>
+
+      <div class="hub-grid">
+        <!-- 左側：策展背景與核心論述 -->
+        <div class="card">
+          <h3 class="card-title">🌸 策展緣起與跨域宗旨</h3>
+          <p class="intro-lead">
+            國立自然科學博物館（NMNS）植物園長年致力於生物多樣性科普推廣與植物科學典藏。本次公開展示特別與<strong>南投縣立南投國民中學數學領域輔導團隊</strong>跨界攜手，將中學數學課堂中的「斐波那契數列」、「黃金分割比例」與「空間對稱碎形」，與現代生物化學「植物細胞甘油置換永生技術」深度交融。
+          </p>
+          <p class="intro-lead">
+            透過 20 組精修之展品與 15 頁系統化科普教學大綱，觀展者不僅能欣賞永生花細膩飽滿的花藝質感，更能透視自然界中數百萬年演化所鑄就的幾何秩序。
+          </p>
+
+          <table class="meta-table">
+            <tbody>
+              <tr>
+                <th>展示檔期</th>
+                <td>國立自然科學博物館 植物園特展公開展示</td>
+              </tr>
+              <tr>
+                <th>共同策劃</th>
+                <td>國立自然科學博物館 植物學組 × 南投國中 數學領域教師團隊</td>
+              </tr>
+              <tr>
+                <th>展示地點</th>
+                <td>臺中市北區館前路一號（科博館植物園特展室）</td>
+              </tr>
+              <tr>
+                <th>典藏技術</th>
+                <td>有機溶劑脫色脫水 ‧ 甘油（Glycerin）細胞壁滲透置換 ‧ 固態保鮮</td>
+              </tr>
+              <tr>
+                <th>核心素養</th>
+                <td>108 課綱 STEAM 跨領域：數學思維 × 科學探究 × 藝術涵養</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 右側：場館地理導覽與聯絡資訊 -->
+        <div class="card">
+          <h3 class="card-title">📍 場域導覽與位置指引</h3>
+          <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.8rem;">
+            展區座落於國立自然科學博物館植物園溫室旁特展室，鄰近熱帶雨林巨型溫室與低地植物生態步道。
+          </p>
+          <div class="map-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.480036691458!2d120.66352937599026!3d24.157529978393587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693da277b474bb%3A0xb35581b7e42d763!2z5ZyL56uL6Ieq54S256eR5a245Y2a54mp6aSo!5e0!3m2!1szh-TW!2stw!4v1710000000000!5m2!1szh-TW!2stw" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="科博館植物園地圖">
+            </iframe>
+          </div>
+          <div style="margin-top: 1rem; font-size: 0.88rem; color: var(--text-muted);">
+            🚌 交通方式：搭乘臺中公車至「科博館（專用道）」站下車，步行約 3 分鐘即可抵達植物園特展入口。
+          </div>
+        </div>
+      </div>
+
+      <!-- 四大外展推廣基地網格 -->
+      <div class="network-grid">
+        <div class="network-item">
+          <div class="network-icon">🏛️</div>
+          <div class="network-info">
+            <h4>科博館植物園展示核心</h4>
+            <p>常態公開展示、植物標本庫房技術連動、大眾微觀科學體驗。</p>
+          </div>
+        </div>
+        <div class="network-item">
+          <div class="network-icon">📐</div>
+          <div class="network-info">
+            <h4>南投國中數學創客基地</h4>
+            <p>幾何模型建構、花瓣數列統計研討、教師跨學科共備工坊。</p>
+          </div>
+        </div>
+        <div class="network-item">
+          <div class="network-icon">🔬</div>
+          <div class="network-info">
+            <h4>微觀植物細胞實驗室</h4>
+            <p>光學顯微鏡觀察花瓣氣孔、細胞壁纖維素排列與染劑毛細現象。</p>
+          </div>
+        </div>
+        <div class="network-item">
+          <div class="network-icon">🎨</div>
+          <div class="network-info">
+            <h4>生活花藝美學推廣棧</h4>
+            <p>校園師生手作成果推廣、居家長期養護指南與環保資材教育。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------
+         分頁二：🌟 2. A. 成果網頁 (Narrative Results & KPIs & Gallery)
+         ------------------------------------------------------------------- -->
+    <section id="tab-results" class="tab-pane">
+      <div class="section-hero">
+        <span class="section-tag">Curatorial Results & Photo Gallery</span>
+        <h2 class="section-title">特展關鍵成果與 20 件精選展品</h2>
+        <p class="section-subtitle">
+          全數照片均完成專業裁切優化，排除雜物干擾；配備 4 大面向深度探討與智慧簡報跳轉。
+        </p>
+      </div>
+
+      <!-- 核心 KPI 數字儀表板 -->
+      <div class="kpi-row">
+        <div class="kpi-box">
+          <div class="kpi-num">100<span class="kpi-unit">%</span></div>
+          <div class="kpi-label">研習滿意度回饋</div>
+          <div class="kpi-desc">南投國中數學領域師生 100% 正向肯定</div>
+        </div>
+        <div class="kpi-box">
+          <div class="kpi-num">15<span class="kpi-unit">頁</span></div>
+          <div class="kpi-label">系統化教學大綱</div>
+          <div class="kpi-desc">涵蓋植物生物學、化學置換與幾何美學</div>
+        </div>
+        <div class="kpi-box">
+          <div class="kpi-num">20<span class="kpi-unit">件</span></div>
+          <div class="kpi-label">展覽級微型花藝展品</div>
+          <div class="kpi-desc">高清數位典藏、細節微距無失真呈現</div>
+        </div>
+        <div class="kpi-box">
+          <div class="kpi-num">1.618</div>
+          <div class="kpi-label">黃金比例美學貫穿</div>
+          <div class="kpi-desc">從花器容積到花冠立體空間和諧平衡</div>
+        </div>
+      </div>
+
+      <!-- 四大關鍵面向深度卡片 -->
+      <div class="aspects-grid">
+        <div class="aspect-card">
+          <div>
+            <div class="aspect-header">
+              <span class="aspect-tag">面向一 ‧ 生物化學</span>
+              <span style="font-size: 0.85rem; color: var(--text-muted);">植物細胞保鮮</span>
+            </div>
+            <h3 class="aspect-title">植物細胞壁保護與有機置換工藝</h3>
+            <p class="aspect-body">
+              破解傳統乾燥花易碎萎縮的缺憾。透過 A 液有機溶劑在 72 小時內輕柔置換水分與天然色素，再藉由 B 液多元醇甘油（Glycerin）滲入支撐細胞壁微結構，使花瓣歷經數年依然維持彈性水潤。
+            </p>
+          </div>
+          <a href="#" class="aspect-jump-btn" data-slide="4">查看簡報 P.4 化學置換 ➔</a>
+        </div>
+
+        <div class="aspect-card">
+          <div>
+            <div class="aspect-header">
+              <span class="aspect-tag">面向二 ‧ 數理奧秘</span>
+              <span style="font-size: 0.85rem; color: var(--text-muted);">幾何密碼解析</span>
+            </div>
+            <h3 class="aspect-title">自然界中的斐波那契數列與螺旋</h3>
+            <p class="aspect-body">
+              大自然是精密的數學家。松果鱗片、向日葵種子盤及花瓣數量，無不遵循著 $1, 1, 2, 3, 5, 8, 13\dots$ 的費氏規律。在花藝空間配置上引入 137.5° 黃金角，造就無可比擬的生動律動。
+            </p>
+          </div>
+          <a href="#" class="aspect-jump-btn" data-slide="6">查看簡報 P.6 幾何美學 ➔</a>
+        </div>
+
+        <div class="aspect-card">
+          <div>
+            <div class="aspect-header">
+              <span class="aspect-tag">面向三 ‧ 工藝技法</span>
+              <span style="font-size: 0.85rem; color: var(--text-muted);">立體空間構圖</span>
+            </div>
+            <h3 class="aspect-title">開花術、空間黃金三角與立體景深</h3>
+            <p class="aspect-body">
+              從緊閉的乾燥花蕾中，運用物理微溫開花術與 #26 號鐵絲嫁接，建構不等邊三角錐立體架構。搭配歐根紗透光緞帶與白瓷陶罐，展現異材質共振之美。
+            </p>
+          </div>
+          <a href="#" class="aspect-jump-btn" data-slide="10">查看簡報 P.10 核心技法 ➔</a>
+        </div>
+
+        <div class="aspect-card">
+          <div>
+            <div class="aspect-header">
+              <span class="aspect-tag">面向四 ‧ 典藏推廣</span>
+              <span style="font-size: 0.85rem; color: var(--text-muted);">科博社會責任</span>
+            </div>
+            <h3 class="aspect-title">百萬標本科學管理與公眾科普實踐</h3>
+            <p class="aspect-body">
+              借鏡科博館國際級標本庫房溫濕度調控理念（45%~60% RH），傳授大眾居家防潮防曬長青保養訣竅，並將國中數學教育具象化為能走入萬家燈火的療癒美學。
+            </p>
+          </div>
+          <a href="#" class="aspect-jump-btn" data-slide="13">查看簡報 P.13 長期養護 ➔</a>
+        </div>
+      </div>
+
+      <!-- 20 張高解析成果照片篩選展示區 -->
+      <div class="gallery-section">
+        <div style="text-align: center; margin-bottom: 1.5rem;">
+          <h3 style="font-size: 1.6rem; font-weight: 800; color: var(--text-primary);">🌸 特展精選成果相簿（20 張高解析照片）</h3>
+          <p style="font-size: 0.95rem; color: var(--text-secondary);">點擊任一照片可開啟全螢幕高解析度檢視，或點選連結秒速直達教學大綱對應頁。</p>
+        </div>
+
+        <!-- 篩選列 -->
+        <div class="gallery-filter-bar">
+          <button class="filter-btn active" data-filter="all">全部展品 (20)</button>
+          <button class="filter-btn" data-filter="poster">研習主視覺 (4)</button>
+          <button class="filter-btn" data-filter="material">植物科學資材 (3)</button>
+          <button class="filter-btn" data-filter="single">微距幾何單品 (4)</button>
+          <button class="filter-btn" data-filter="duo">空間對稱組合 (6)</button>
+          <button class="filter-btn" data-filter="display">生活與策展情境 (3)</button>
+        </div>
+
+        <!-- 成果相片網格 -->
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- 由 js/app.js 動態渲染 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------
+         分頁三：🎯 3. B. 科普與問答 (FAQ / Q&A Mode)
+         ------------------------------------------------------------------- -->
+    <section id="tab-faq" class="tab-pane">
+      <div class="section-hero">
+        <span class="section-tag">Science Q&A</span>
+        <h2 class="section-title">科博大眾科普問答與常客提問</h2>
+        <p class="section-subtitle">
+          彙整參觀民眾、研習學員與評鑑委員最關切的 6 大核心疑問，由植物科學與幾何專業解答。
+        </p>
+      </div>
+
+      <div class="faq-container">
+        <!-- Q1 -->
+        <div class="faq-card open">
+          <div class="faq-header">
+            <div class="faq-title-group">
+              <span class="faq-q-badge">Q1</span>
+              <h3 class="faq-question">永生花（不凋花）與一般乾燥花有何本質上的科學差異？</h3>
+            </div>
+            <span class="faq-toggle-icon">▼</span>
+          </div>
+          <div class="faq-content">
+            <p class="faq-answer">
+              一般乾燥花是透過自然風乾或烘烤，將水分完全蒸散，導致<span class="faq-highlight">植物細胞萎縮塌陷、花瓣脆硬易碎且顏色氧化暗沉</span>。而永生花（Preserved Flowers）則利用化學置換工程，以有機溶劑抽離水分後，再注入<span class="faq-highlight">保濕甘油與水性染料充盈細胞腔室</span>，維持細胞壁三維立體飽滿，因此觸感如鮮花般柔軟水嫩，能維持 2~5 年以上不枯萎。
+            </p>
+            <div class="faq-footer">
+              <a href="#" class="faq-slide-btn" data-slide="2">查看簡報 P.2 歷史與演進 ➔</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="faq-card">
+          <div class="faq-header">
+            <div class="faq-title-group">
+              <span class="faq-q-badge">Q2</span>
+              <h3 class="faq-question">什麼是 A 液與 B 液？永生化的化學置換是如何發生的？</h3>
+            </div>
+            <span class="faq-toggle-icon">▼</span>
+          </div>
+          <div class="faq-content">
+            <p class="faq-answer">
+              永生化工藝的核心是兩大化學置換階段：<strong>A 液為脫水脫色劑</strong>（如乙醇、異丙醇有機溶劑），迅速溶解自體葉綠素與花青素，使花瓣呈半透明象牙白；<strong>B 液為保濕重構劑</strong>（主成分為高純度甘油 Glycerin 與聚乙二醇 PEG），利用<span class="faq-highlight">極強吸濕性與常溫不揮發特性</span>，牢牢支撐細胞壁並均勻吸附環保色料。
+            </p>
+            <div class="faq-footer">
+              <a href="#" class="faq-slide-btn" data-slide="4">查看簡報 P.4 化學置換 ➔</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="faq-card">
+          <div class="faq-header">
+            <div class="faq-title-group">
+              <span class="faq-q-badge">Q3</span>
+              <h3 class="faq-question">植物界中哪裡最容易觀察到斐波那契數列與黃金比例？</h3>
+            </div>
+            <span class="faq-toggle-icon">▼</span>
+          </div>
+          <div class="faq-content">
+            <p class="faq-answer">
+              最經典的例子是<strong>松果（Pine Cone）</strong>與<strong>向日葵花盤</strong>。仔細觀察松果表面，順時針與逆時針旋轉的螺旋鱗片線條數，通常恰好是相鄰的斐波那契數（例如 8 條與 13 條）。植物以約 <span class="faq-highlight">137.5° 黃金角（Golden Angle）</span>生長葉片與花苞，是自然演化下讓每一片花瓣均能獲得最大日照與空間的最優數學解。
+            </p>
+            <div class="faq-footer">
+              <a href="#" class="faq-slide-btn" data-slide="6">查看簡報 P.6 幾何美學 ➔</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="faq-card">
+          <div class="faq-header">
+            <div class="faq-title-group">
+              <span class="faq-q-badge">Q4</span>
+              <h3 class="faq-question">為什麼南投國中數學領域會選擇「永生花」進行跨領域教師研習？</h3>
+            </div>
+            <span class="faq-toggle-icon">▼</span>
+          </div>
+          <div class="faq-content">
+            <p class="faq-answer">
+              為實踐教育部 108 課綱「生活素養導向」精神。傳統幾何與數列常被學生視為冰冷抽象的算式；透過親手組裝花籃，教師帶領學生親身體會<span class="faq-highlight">空間高低層次（黃金三角）、對稱與破對稱平衡、花冠高度與容器 1:1.618 黃金配比</span>。動手創作既療癒身心，又讓數學之美真實躍然眼前。
+            </p>
+            <div class="faq-footer">
+              <a href="#" class="faq-slide-btn" data-slide="14">查看簡報 P.14 跨領域教育 ➔</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="faq-card">
+          <div class="faq-header">
+            <div class="faq-title-group">
+              <span class="faq-q-badge">Q5</span>
+              <h3 class="faq-question">台灣氣候高溫潮濕，若永生花花瓣出現「半透明出油」該如何處理？</h3>
+            </div>
+            <span class="faq-toggle-icon">▼</span>
+          </div>
+          <div class="faq-content">
+            <p class="faq-answer">
+              這是因為台灣相對濕度超過 65% 時，細胞內的甘油吸收了空氣中的過量水分。<span class="faq-highlight">請千萬不要日曬或噴水！</span>正確處置方式是將作品移至緊閉房間開啟<strong>除濕機（設定濕度 50% RH）</strong>運轉 2~4 小時，花瓣便會自然揮發多餘水分，恢復原有的不透明粉嫩色澤與飽滿質地。
+            </p>
+            <div class="faq-footer">
+              <a href="#" class="faq-slide-btn" data-slide="13">查看簡報 P.13 科學養護 ➔</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q6 -->
+        <div class="faq-card">
+          <div class="faq-header">
+            <div class="faq-title-group">
+              <span class="faq-q-badge">Q6</span>
+              <h3 class="faq-question">本次在國立自然科學博物館公開展示，有什麼核心教育指標？</h3>
+            </div>
+            <span class="faq-toggle-icon">▼</span>
+          </div>
+          <div class="faq-content">
+            <p class="faq-answer">
+              展示具備三大指標：<strong>1. 科普推廣</strong>（解密博物館植物標本保護與生物化學技術）；<strong>2. 跨域示範</strong>（展示國中數學與生活藝術深度結合的具體課綱教案）；<strong>3. 社會共融</strong>（提供高齡長者、特教學生與普羅大眾無障礙線上閱讀、高畫質燈箱與互動白板體驗）。
+            </p>
+            <div class="faq-footer">
+              <a href="#" class="faq-slide-btn" data-slide="15">查看簡報 P.15 策展總結 ➔</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------
+         分頁四：📽️ 4. C. 15 頁永生花簡報模式 (Slide Presentation Deck)
+         ------------------------------------------------------------------- -->
+    <section id="tab-deck" class="tab-pane">
+      <div class="section-hero" style="padding-bottom: 0.5rem;">
+        <span class="section-tag">Interactive Slide Deck</span>
+        <h2 class="section-title">15 頁永生花完整教學大綱巡演</h2>
+        <p class="section-subtitle">
+          全適配 16:9 沉浸投影，內建隨身備忘講稿、縮圖滑軌抽屜與正下方微型 Canvas 白板標記工具列。
+        </p>
+      </div>
+
+      <div class="deck-container">
+        <!-- 簡報頂部控制按鈕 -->
+        <div class="deck-top-controls">
+          <div class="deck-slide-indicator" id="slideIndicator">投影片 1 / 15</div>
+          <div class="deck-actions">
+            <button class="deck-btn" id="deckPrevBtn" title="上一頁 (快捷鍵: ←)">◀ 上一頁</button>
+            <button class="deck-btn" id="deckNextBtn" title="下一頁 (快捷鍵: →)">下一頁 ▶</button>
+            <button class="deck-btn" id="deckAutoPlayBtn" title="自動輪播">▶ 自動輪播</button>
+            <button class="deck-btn" id="deckNotesToggleBtn" title="講者備忘錄 (快捷鍵: N)">📝 備忘講稿</button>
+            <button class="deck-btn" id="deckFullscreenBtn" title="全螢幕投影模式">⛶ 全螢幕</button>
+          </div>
+        </div>
+
+        <!-- 簡報投影舞台 (16:9) -->
+        <div class="slide-stage-wrapper" id="slideStageWrapper">
+          <div class="slide-stage" id="slideStage">
+            <!-- 左欄：展品影像與大分類 -->
+            <div class="slide-col-media">
+              <img id="slideStageImg" src="processed_images/1151105數學科研習1_0.jpg" alt="投影片配圖">
+              <span class="slide-media-badge" id="slideStageBadge">策展核心 ‧ 幾何美學</span>
+            </div>
+
+            <!-- 右欄：教學內容與知識節點 -->
+            <div class="slide-col-content">
+              <div class="slide-header-area">
+                <span class="slide-math-pill" id="slideMathPill">黃金螺旋 ‧ 空間美學</span>
+                <h3 class="slide-title-text" id="slideTitle">當數學遇見永生花：幾何與植物科學的璀璨交織</h3>
+                <h4 class="slide-subtitle-text" id="slideSubtitle">國立自然科學博物館公開展示主題特展 ‧ 跨域美感教育成果</h4>
+              </div>
+
+              <div class="slide-summary-box" id="slideSummary">
+                融合國立自然科學博物館（NMNS）植物標本科學典藏精神與南投國中數學領域跨域手作課程...
+              </div>
+
+              <ul class="slide-bullet-list" id="slideBullets">
+                <!-- 由 js/app.js 動態填入 -->
+              </ul>
+
+              <div class="slide-quiz-box" id="slideQuiz">
+                <strong>💡 科博展廳互動：</strong>思考：大自然中的植物生長，為何處處隱藏著數學規律？
+              </div>
+            </div>
+          </div>
+
+          <!-- HTML5 Canvas 螢幕白板繪圖層 -->
+          <canvas class="canvas-overlay" id="slideCanvas"></canvas>
+
+          <!-- 全螢幕極致微型正下方畫筆工具列 (Ultra-compact Bottom Docked Toolbar) -->
+          <div class="bottom-docked-toolbar" id="dockedToolbar">
+            <!-- 筆刷模式 -->
+            <button class="mini-tool-btn active" data-tool="pen" title="自由手寫筆">✏️ 筆</button>
+            <button class="mini-tool-btn" data-tool="highlighter" title="螢光醒目標記">🖍️ 螢光</button>
+            <button class="mini-tool-btn" data-tool="line" title="直線">─ 線</button>
+            <button class="mini-tool-btn" data-tool="arrow" title="指向箭頭">➔ 箭頭</button>
+            <button class="mini-tool-btn" data-tool="rect" title="矩形框">□ 框</button>
+            <button class="mini-tool-btn" data-tool="circle" title="圓形">○ 圓</button>
+            <button class="mini-tool-btn" data-tool="eraser" title="局部橡皮擦">🧹 擦</button>
+
+            <!-- 5 色調色盤微粒 -->
+            <div style="display: flex; gap: 3px; margin: 0 4px;">
+              <span class="color-dot active" data-color="#ff3b30" style="background:#ff3b30;" title="紅"></span>
+              <span class="color-dot" data-color="#34c759" style="background:#34c759;" title="綠"></span>
+              <span class="color-dot" data-color="#007aff" style="background:#007aff;" title="藍"></span>
+              <span class="color-dot" data-color="#ffcc00" style="background:#ffcc00;" title="黃"></span>
+              <span class="color-dot" data-color="#ffffff" style="background:#ffffff;" title="白"></span>
+            </div>
+
+            <!-- 粗細切換 -->
+            <button class="mini-tool-btn active" data-size="3" title="細線">細</button>
+            <button class="mini-tool-btn" data-size="6" title="粗線">粗</button>
+
+            <!-- 動作 -->
+            <button class="mini-tool-btn" id="drawUndoBtn" title="復原上一筆">↩ 復原</button>
+            <button class="mini-tool-btn" id="drawClearBtn" title="一鍵清空畫布">🗑️ 清空</button>
+
+            <!-- 實體紅色關閉鈕 -->
+            <button class="mini-tool-btn danger" id="closeToolbarBtn" title="關閉工具列 (快捷鍵: Esc / D / P)">✕ 關閉</button>
+          </div>
+
+          <!-- 喚醒微型畫筆浮動鈕 (當工具列關閉時保留) -->
+          <button class="pen-wake-btn" id="penWakeBtn" title="喚醒畫筆工具列 (快捷鍵: Esc / D / P)">
+            ✏️ 畫筆 (D)
+          </button>
+        </div>
+
+        <!-- 隨身講稿備忘錄 (Speaker Notes Panel) -->
+        <div class="speaker-notes-panel" id="speakerNotesPanel">
+          <!-- 由 js/app.js 動態填入 -->
+        </div>
+
+        <!-- 底部 15 頁縮圖滑軌抽屜 -->
+        <div class="thumbs-drawer" id="thumbsDrawer">
+          <!-- 由 js/app.js 動態填入 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------
+         分頁五：📱 5. QR 分享專區 (QR & Short URL Sharing)
+         ------------------------------------------------------------------- -->
+    <section id="tab-qr" class="tab-pane">
+      <div class="section-hero">
+        <span class="section-tag">Public Sharing & QR Access</span>
+        <h2 class="section-title">官方公開展示網址與雙軌二維條碼</h2>
+        <p class="section-subtitle">
+          為科博館現場觀展民眾與校園師生提供秒速掃碼分享管道，支援高解析燈箱放大與一鍵複製。
+        </p>
+      </div>
+
+      <div class="qr-container">
+        <div class="qr-card-grid">
+          <!-- 官方 GitHub Pages 條碼 -->
+          <div class="qr-card">
+            <div class="qr-box" data-title="國立自然科學博物館公開展示主題 ‧ 官方網址 QR Code">
+              <img src="assets/qrcode.png" alt="官方網址 QR Code">
+            </div>
+            <h3 class="qr-title">官方完整公開網址條碼</h3>
+            <p class="qr-url-text">https://yaoshuchin.github.io/nmns-preserved-flower-showcase/</p>
+            <button class="copy-btn" data-url="https://yaoshuchin.github.io/nmns-preserved-flower-showcase/">
+              📋 複製完整網址
+            </button>
+            <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 0.8rem;">
+              🔍 點擊條碼圖片可開啟 330×330 燈箱放大，方便遠距掃描
+            </div>
+          </div>
+
+          <!-- 極簡 TinyURL 縮網址條碼 -->
+          <div class="qr-card">
+            <div class="qr-box" data-title="極簡縮網址 TinyURL QR Code">
+              <img src="assets/qrcode_tinyurl.png" alt="極簡縮網址 QR Code">
+            </div>
+            <h3 class="qr-title">極簡好記縮網址條碼</h3>
+            <p class="qr-url-text">https://tinyurl.com/nmns-flower</p>
+            <button class="copy-btn" data-url="https://tinyurl.com/nmns-flower">
+              📋 複製極簡縮網址
+            </button>
+            <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 0.8rem;">
+              📱 適合印製於科博館導覽摺頁、手作教材或海報展板
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =======================================================================
+       3. 全域燈箱 Modal 與浮動通知 Toast
+       ======================================================================= -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-dialog">
+      <button class="lightbox-close-btn" id="lightboxClose" title="關閉燈箱 (Esc)">✕</button>
+      <img id="lightboxImg" src="" alt="燈箱放大圖">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <div class="toast-msg" id="toastMsg">已成功複製網址！</div>
+
+  <!-- =======================================================================
+       4. 頁尾 (Footer)
+       ======================================================================= -->
+  <footer class="showcase-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>🏛️ 國立自然科學博物館公開展示主題 ‧ 植物園特展</h3>
+          <p>共同合作：南投縣立南投國民中學 數學領域輔導與手作課程團隊</p>
+        </div>
+        <div style="font-size: 0.88rem; opacity: 0.85;">
+          🌿 STEAM 跨領域科學教育 ‧ 永生花美感手作 ‧ 幾何與植物的永恆對話
+        </div>
+      </div>
+      <div class="footer-copyright">
+        © 2026 National Museum of Natural Science & Nantou Junior High School. All rights reserved. 依循通用訪視成果技能規格建置。
+      </div>
+    </div>
+  </footer>
+
+  <!-- 引入模組腳本 -->
+  <script src="js/crystal_synth_engine.js"></script>
+  <script src="js/slides_data.js"></script>
+  <script src="js/gallery_data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
