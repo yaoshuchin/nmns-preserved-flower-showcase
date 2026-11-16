@@ -1,5 +1,5 @@
 # 當數學遇見永生花：幾何與植物科學的璀璨交織
-### 🌸 南投國中數學領域教師研習 ‧ 永生花跨領域美感手作特展
+### 🌸 南投國中數學領域教師研習 ‧ 永生花跨領域美感教師校內研習成果網
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Online-2ea44f?style=flat-square&logo=github)](https://yaoshuchin.github.io/nmns-preserved-flower-showcase/)
 [![Nantou JH](https://img.shields.io/badge/Organizer-Nantou_JH_Math-blue?style=flat-square)](https://ntjh.ntct.edu.tw/)
@@ -10,15 +10,15 @@
 
 ## 🌐 線上展示與即時成果 (Live Showcase)
 
-- 🔗 **官方公開展示網址 (GitHub Pages)**：[https://yaoshuchin.github.io/nmns-preserved-flower-showcase/](https://yaoshuchin.github.io/nmns-preserved-flower-showcase/)
+- 🔗 **校內研習成果公開網址 (GitHub Pages)**：[https://yaoshuchin.github.io/nmns-preserved-flower-showcase/](https://yaoshuchin.github.io/nmns-preserved-flower-showcase/)
 - 📱 **極簡縮網址**：[https://tinyurl.com/nmns-flower](https://tinyurl.com/nmns-flower)
 - 🏫 **研習場域**：南投縣立南投國民中學（南投市祖祠路 360 號）童軍教室
 
 ---
 
-## 📖 策展緣起與核心主題
+## 📖 校內研習緣起與核心主題
 
-本系統為**南投縣立南投國民中學數學領域教師研習／手作課程**之數位成果展示系統，由南投國中數學領域輔導團隊策劃執行。
+本系統為**南投縣立南投國民中學 115 學年度數學領域教師校內在職增能研習**之數位成果網，由南投國中數學領域教學輔導團隊主辦策劃。
 
 大自然是精密的數學家與最頂級的藝術家。本展示打破傳統學科藩籬，透過現代生物化學**「植物細胞有機置換永生技術（Preserved Flowers）」**，將自然界中演化沉澱的幾何秩序——**斐波那契數列（Fibonacci sequence）**、**黃金分割比例（$\Phi = 1.618$）**、**對稱與碎形（Fractals）**，轉化為一盆盆充滿手作溫度且歷久彌新的空間立體花藝。
 
@@ -74,7 +74,7 @@
    - `S__26910864_0`：鏡面流光 ‧ 雙色花籃的優雅倒影與垂墜線條。
    - `S__26910871_0`：金色晨光 ‧ 展台上的雙色雙重奏。
    - `S__26910872_0`：白瓷南瓜陶罐三重奏 ‧ 三點成面的空間律動。
-5. **生活花藝與策展情境（3 張）**：
+5. **校園花藝與生活情境（3 張）**：
    - `S__26910943_0`：生活花藝情境 ‧ 天然白藤球與展架上的花籃。
    - `S__26910944_0`：陳列長廊 ‧ 走道視角的微型展演。
 

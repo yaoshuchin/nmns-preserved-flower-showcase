@@ -13,8 +13,8 @@ window.GALLERY_DATA = [
     thumb: "processed_images/1151105數學科研習1_0.webp",
     aspect: "16:9",
     slide_link: 1,
-    desc: "特展主視覺：當數學遇見永生花，融合斐波那契黃金螺旋與編織花籃，對應大綱第 1 頁主題導入。",
-    tags: ["主題導入", "黃金螺旋", "南投國中", "手作特展"]
+    desc: "研習主視覺：當數學遇見永生花，融合斐波那契黃金螺旋與編織花籃，對應大綱第 1 頁主題導入。",
+    tags: ["主題導入", "黃金螺旋", "南投國中", "校內研習"]
   },
   {
     id: 2,
@@ -194,7 +194,7 @@ window.GALLERY_DATA = [
     aspect: "16:8",
     slide_link: 12,
     desc: "黑曜石質感的鏡面反射與垂墜緞帶，對應大綱第 12 頁永生花相框的光影立體感。",
-    tags: ["相框光影", "倒影美學", "展覽質感", "垂墜線條"]
+    tags: ["相框光影", "倒影美學", "精緻美感", "垂墜線條"]
   },
   {
     id: 17,
@@ -206,7 +206,7 @@ window.GALLERY_DATA = [
     aspect: "16:7",
     slide_link: 12,
     desc: "金屬飾條展台上的精心陳列，立體半浮雕動線，對應大綱第 12 頁實作二：永生花相框。",
-    tags: ["展台陳列", "金屬飾條", "半浮雕", "晨光灑落"]
+    tags: ["作品陳列", "金屬飾條", "半浮雕", "晨光灑落"]
   },
   {
     id: 18,
@@ -224,7 +224,7 @@ window.GALLERY_DATA = [
     id: 19,
     title: "生活花藝情境 ‧ 藤球與花架上的花籃",
     category: "display",
-    category_name: "生活與策展情境",
+    category_name: "校園與生活情境",
     image: "processed_images/S__26910943_0.jpg",
     thumb: "processed_images/S__26910943_0.webp",
     aspect: "16:10",
@@ -236,7 +236,7 @@ window.GALLERY_DATA = [
     id: 20,
     title: "陳列長廊 ‧ 走道視角的微型展演",
     category: "display",
-    category_name: "生活與策展情境",
+    category_name: "校園與生活情境",
     image: "processed_images/S__26910944_0.jpg",
     thumb: "processed_images/S__26910944_0.webp",
     aspect: "16:9",
