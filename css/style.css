@@ -696,6 +696,7 @@ button {
   padding-top: 66.66%; /* 3:2 default ratio */
   overflow: hidden;
   background-color: var(--bg-secondary);
+  cursor: pointer;
 }
 
 .gallery-img-wrapper img {
@@ -774,6 +775,12 @@ button {
   color: var(--text-muted);
   padding: 2px 6px;
   border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.gallery-tag-pill:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 .gallery-slide-link {

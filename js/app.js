@@ -207,13 +207,15 @@ function initGallery() {
     galleryGrid.innerHTML = '';
     const filtered = filter === 'all'
       ? window.GALLERY_DATA
-      : window.GALLERY_DATA.filter(item => item.category === filter);
+      : (filter === 'ntjh_math' || filter === '投中數學')
+        ? window.GALLERY_DATA.filter(item => item.tags && item.tags.includes('投中數學'))
+        : window.GALLERY_DATA.filter(item => item.category === filter || (item.tags && item.tags.includes(filter)));
 
     filtered.forEach(item => {
       const card = document.createElement('div');
       card.className = 'gallery-item';
       card.innerHTML = `
-        <div class="gallery-img-wrapper">
+        <div class="gallery-img-wrapper" title="點擊放大觀看高清相片">
           <img src="${item.thumb}" alt="${item.title}" loading="lazy" onerror="this.src='${item.image}'">
           <span class="gallery-category-badge">${item.category_name}</span>
           <span class="gallery-aspect-tag">${item.aspect}</span>
@@ -223,7 +225,7 @@ function initGallery() {
           <p class="gallery-desc">${item.desc}</p>
           <div class="gallery-meta">
             <div class="gallery-tags">
-              ${item.tags.map(t => `<span class="gallery-tag-pill">#${t}</span>`).join('')}
+              ${item.tags.map(t => `<span class="gallery-tag-pill" data-tag="${t}">#${t}</span>`).join('')}
             </div>
             <a href="#" class="gallery-slide-link" data-slide="${item.slide_link}">大綱 P.${item.slide_link} ➔</a>
           </div>
@@ -234,6 +236,32 @@ function initGallery() {
       card.querySelector('.gallery-img-wrapper').addEventListener('click', () => {
         openLightbox(item.image, `${item.title} —— ${item.desc}`);
       });
+
+      // 點選標籤進行過濾篩選
+      card.querySelectorAll('.gallery-tag-pill').forEach(pill => {
+        pill.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const tag = pill.dataset.tag;
+          if (tag === '投中數學') {
+            const mathBtn = document.querySelector('.filter-btn[data-filter="ntjh_math"]');
+            if (mathBtn) mathBtn.click();
+          }
+        });
+      });
+
+      // 點選大綱投影片連結
+      const slideLink = card.querySelector('.gallery-slide-link');
+      if (slideLink) {
+        slideLink.addEventListener('click', (e) => {
+          e.preventDefault();
+          const slideNum = parseInt(item.slide_link, 10);
+          switchTab('tab-deck');
+          if (window.goToSlide) {
+            window.goToSlide(slideNum);
+          }
+          window.scrollTo({ top: 120, behavior: 'smooth' });
+        });
+      }
 
       galleryGrid.appendChild(card);
     });
